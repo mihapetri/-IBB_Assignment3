@@ -17,17 +17,16 @@ elseif str == '3'
     imTest = load('testSetG.mat').imTest;
 end
 
-YPred = classify(net,imTest);
+YPredict = classify(net,imTest);
 YTest = imTest.Labels;
 
-accuracy = sum(YPred == YTest)/numel(YTest)
+accuracy = sum(YPredict == YTest)/numel(YTest)
 
-ind = find(YPred ~= YTest);
+f = find(YPredict ~= YTest);
 figure; 
 
-for ii = 1:6
-    ind(ii)
-    subplot(2,3,ii);
-    imshow(imTest.readimage(ind(ii)));
-    title([YPred(ind(ii)), ' predicted, ', YTest(ind(ii)), ' actual']);
+for i = 1:6
+    subplot(2,3,i);
+    imshow(imTest.readimage(f(i)));
+    title([YPredict(f(i)), ' predicted, ', YTest(f(i)), ' actual']);
 end

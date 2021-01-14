@@ -12,4 +12,5 @@ This assignment was made in Matlab with the following toolboxes:
 
 I would recommend running only the testRecCNN.m program since it is used for testing the data. I wouldn't recommend running the trainRecCNN.m since it might take some time to complete. But feel free to check out the code. The .mat files are just used so the training part of the program does not have to be run everytime. 
 
-Other not mentioned Matlab programs were used for image processing and arrangement.
+You don't need to download the folders (they are used for training) although .mat files are needed for testing.
+

@@ -14,3 +14,5 @@ I would recommend running only the testRecCNN.m program since it is used for tes
 
 You don't need to download the folders (they are used for training) although .mat files are needed for testing.
 
+When running the program you will be asked to type 1, 2 or 3 depending on what type of recognition you want.
+

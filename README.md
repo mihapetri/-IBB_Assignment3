@@ -1,7 +1,7 @@
 # IBB_Assignment 3 - ear recognition
 Third assignment for Image-Based Biometry. All of the data is from AWE data set.
 
-## Requirements
+## Requirements aa
 
 This assignment was made in Matlab with the following toolboxes:
 
